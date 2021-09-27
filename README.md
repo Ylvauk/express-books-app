@@ -18,7 +18,12 @@ Practice with building a basic ExpressJS server with routes.
 
 Unless otherwise stated, assignments are due by 10 am ET on the next class day. 
 
-Your application must run without errors in order to be considered complete. There must be routes for index, show, create, delete for the Books resource. The update route is bonus!
+### MVP
+- Your application must run without errors in order to be considered complete. 
+- There must be routes for index, show, create, delete for the Books resource. 
+ 
+ ### Stretch 
+ - The update route is bonus!
 
 ## Requirements
 
