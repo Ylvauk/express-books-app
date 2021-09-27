@@ -13,7 +13,7 @@ Practice with building a basic ExpressJS server with routes.
 1. Fork and clone this repository.
 1. Change into the new directory with `cd express-books-app`.
 1. Checkout to a new dev branch with `git checkout -b dev` so that you can make a pull request to submit this assignment.
-1. Install the project dependencies with `npm i express nodemon`.
+1. Install the project dependencies with `npm i express nodemon`. (Don't install `nodemon` locally if you installed it globally today!)
 1. Fulfill the requirements below to complete the assignment.
 
 Unless otherwise stated, assignments are due by 10 am ET on the next class day. 
@@ -49,6 +49,8 @@ app.use(express.urlencoded({ extended: true }));
 2. Write a route handler for **GET** requests made to the `/books/:id` path. Remember that this is usually referred to as the _Show_ route and should return _a single_ book with a matching id.
 3. Write a route handler for **POST** requests made to the `/books` path. Remember that this is usually referred to as the _Create_ route and should add a new book to the books and then return _all_ the books as an array of objects.
 4. Write a route handler to delete a single book. Use the pattern from class.
+
+Be sure to attach the routes to the URIs specified to follow the [RESTful paradigm](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/). 
 
 ### Part 3: Bonus Add an Update Route (Stretch)
 
